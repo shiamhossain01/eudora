@@ -1,0 +1,383 @@
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    min-height: 100vh;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+header::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0;
+    background: black;
+    opacity: .5;
+    z-index: -1;
+}
+.nav-link{
+    color: #fff;
+    padding: 5px 13px !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.nav-link:focus{
+   color: #e59205;
+}
+.nav-link:hover{
+    color: #e59205;
+}
+.nav-link img{
+    width: 150px;
+}
+.navbar-nav{
+    align-items: center;
+}
+.main_header{
+    background: rgba(0, 0, 0, 0.384);
+    padding: 30px 0;
+}
+
+
+
+
+
+.banner_contant{
+    color: #fff;
+    text-align: center;
+}
+.banner_contant h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-style: italic;
+
+
+}
+.banner_contant span{
+    color: #e59205;
+
+}
+.banner_contant p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0 40px;
+
+}
+.banner_contant a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    transition: .5s all ease-in-out;
+
+}
+.banner_contant a:hover{
+    color: #fff;
+    border: 1px solid #e59205;
+    background: #e59205;
+
+}
+.height{
+    min-height: 75vh;
+}
+
+
+
+
+
+.feature_section{
+    padding: 40px 0 20px;
+    text-align: center;
+}
+.feature_contant{
+
+}
+.feature_contant h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #6e7498;
+    position: relative;
+
+}
+.feature_contant h1::after{
+    content: '';
+    position: absolute;
+    left: -25%;
+    top: 50%;
+    transform: translatey(-50%);
+    background: #e59205;
+    width: 150px;
+    height: 2px;
+
+}
+.feature_contant h1::before{
+    content: '';
+    position: absolute;
+    right: -25%;
+    top: 50%;
+    transform: translatey(-50%);
+    background: #e59205;
+    width: 150px;
+    height: 2px;
+
+}
+.feature_contant p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a4a8bc;
+    padding: 20px 0;
+
+}
+
+
+
+
+
+
+
+.learn_section{
+    padding: 40px 0 200px;
+    text-align: center;
+}
+.learn_contant{
+   padding: 70px 0 30px;
+
+}
+.learn_contant img{
+    padding: 10px;
+    background: #fdfcfb;
+    box-shadow: 1px 1px 20px 1px #e4e3e3;
+    border-radius: 5px;
+    /* width: 100%; */
+}
+
+.learn{
+   
+   
+}
+
+
+.learn1{
+    text-decoration: none;
+    border: 1px solid #d9dcee;
+    padding: 10px 30px;
+    color: #6e7498;
+    display: block;
+    transition: .5s all ease-in-out;
+    
+}
+.learn1:hover{
+    border: 1px solid #e59205;
+    color: #fff;
+    background: #e59205;
+
+}
+.learn_contant img{
+    min-height: 35vh;
+    /* width: 150px; */
+  
+
+}
+
+.learn_text{
+
+}
+.learn_text ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+.learn_text ul li{
+    list-style: none;
+
+}
+.learn_text ul li a{
+    text-decoration: none;
+    text-decoration: none;
+    border: 1px solid #d9dcee;
+    padding: 10px 30px;
+    color: #6e7498;
+    transition: .5s all ease-in-out;
+}
+.learn_text ul li a:hover{
+    border: 1px solid #e59205;
+    color: #fff;
+    background: #e59205;
+}
+/* .learn_contant a{
+    border: 1px solid #e59205;
+    color: #fff;
+    background: #e59205;
+
+} */
+
+
+
+.breakfirst{
+    background: #e59205;
+    padding: 130px 0;
+    background-image: url(../images/banner2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 70%;
+
+}
+.breakfirst h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-style: italic;
+    color: #fff;
+
+}
+
+
+
+
+
+
+.icon_section{
+    text-align: center;
+    padding: 60px 0;
+
+}
+.icon_section img{
+
+}
+.icon_section h4{
+    font-family: 'Playfair Display', serif;
+    /* font-size: 40px; */
+    font-weight: 700;
+    color: 6e7498;
+    padding: 20px 0;
+
+}
+.icon_section p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #a4a8bc;
+    padding-bottom: 40px;
+
+}
+.icon_section a{
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6e7498;
+    border: 1px solid #6e7498;
+    padding: 10px 30px;
+    transition: .5s all ease-in-out;
+
+}
+.icon_section a:hover{
+    border: 1px solid #e59205;
+    color: #fff;
+    background: #e59205;
+
+}
+.icon{
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+.form_section{
+    /* min-height: 70vh; */
+    background-image: url(../images/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0 60px;
+}
+.form_section h1{
+    color: #fff;
+}
+form{
+    padding: 30px 0 50px;
+}
+form input{
+    background: transparent;
+    border: none;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 70%;
+}
+form input::placeholder{
+    color: #fff;
+    text-align: center;
+    outline: none;
+}
+form input:focus{
+    outline: none;
+}
+.form_section a{
+    text-decoration: none;
+    border: 1px solid #e59205;
+    color: #fff;
+    padding: 10px 25px;
+    background: #e59205;
+    transition: .5s all ease-in-out;
+}
+.form_section a:hover{
+    border: 1px solid #fff;
+    background: transparent;
+
+}
+
+footer{
+    padding: 30px 0;
+}
+.text1 p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #a4a8bc;
+
+}
+.text2 ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.text2 ul li{
+    list-style: none;
+
+}
+.text2 ul li a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a4a8bc;
+}
+.text2 ul li a:hover{
+    color: #e59205;
+    
+
+}
